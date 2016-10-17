@@ -1,0 +1,228 @@
+/*Start of DashBoard index panels CSS*/
+.panel-primary {
+    border-color: #399bff;
+    background: #399bff;
+    color: #000 !important;
+}
+.panels-title {
+
+    border-bottom: 0px solid rgba(255, 255, 255, 0.1) !important;
+}
+.panels-body {
+    padding: 15px;
+    font-size: 18px;
+}
+.panel-title {
+    color: #fff;
+    background: #51b7a3;
+    border-bottom: 0px solid rgba(255, 255, 255, 0.1) !important; 
+}
+
+.btn-danger {
+    background-color: #e6dbda;
+    color: #252323;
+}
+.btn-lg {
+    font-size: 18px;
+    padding: 10px 22px;
+}
+.btns-lg {
+    margin-top:22px ;
+    font-size: 25px;
+    padding: 10px 22px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 7px;
+    line-height: 0.7;
+}
+
+/*End of DashBoard index panels CSS*/
+
+/*Start of DataStore/VM table  CSS*/
+
+.tables > thead > tr > th, .tables > tbody > tr > th, .tables > tfoot > tr > th, .tables > thead > tr > td, .tables > tbody > tr > td, .tables > tfoot > tr > td {
+    padding: 14px;
+    line-height: 2.7;
+    font-size: 18px;
+
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+}
+.tables {
+    margin: 0;
+}
+.tables {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.tables {
+    background-color: transparent;
+}
+.tables {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+ {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tables {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.data-panel-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #2d2929;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    margin: -20px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-bottom: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+/*End of DataStore table  CSS*/
+/*Start of Home page Buttons Colour*/
+.btn-host {
+    background-color: #3d464d;
+    color: #fff;
+}
+.btn-vm {
+    background-color: #51b7a3;
+    color: #fff;
+}
+.btn-ds {
+    background-color: #f39c12;
+    color: #fff;
+}
+.btn-hc {
+    background-color: #26a65b;
+    color: #fff;
+}
+.btn-sc {
+    background-color: #ef4836;
+    color: #fff;
+}
+/*End of Home page Buttons Colour*/
+.tables2 > thead > tr > th, .tables > tbody > tr > th, .tables > tfoot > tr > th, .tables > thead > tr > td, .tables > tbody > tr > td, .tables > tfoot > tr > td {
+    padding: 14px;
+    line-height: 2.7;
+    font-size: 18px;
+
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+}
+.tables2 {
+    margin: 0;
+}
+.tables2 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.tables2 {
+    background-color: transparent;
+}
+.tables2 {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tables2 {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+/*MAIN DASHBOARD */
+
+.topstats .title {
+    color: #37363e;
+    font-weight: 600;
+    font-size: 16px;
+}
+.topstats h3 {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    line-height: normal;
+    margin: 4px 0;
+}
+/*< a href*/
+a {
+    color: #000000;
+    text-decoration: none;
+}
+/*table all alerts*/
+.tables3 > thead > tr > th, .tables3 > tbody > tr > th, .tables3 > tfoot > tr > th, .tables3 > thead > tr > td, .tables3 > tbody > tr > td, .tables3 > tfoot > tr > td {
+    padding: 14px;
+    line-height: 2.7;
+    font-size: 18px;
+
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+}
+.tables3 {
+    margin: 0;
+    font-size: 18px;
+}
+.tables3 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.tables3 {
+    background-color: transparent;
+}
+.tables3 {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tables3 {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+/*easy pie*/
+.easypie canvas {
+    position: absolute;
+    left: -4px;
+    width: 100px;
+    height: 100px;
+    top: 30px;
+}
+.easypie {
+    display: inline-block;
+    width: 95px;
+    font-size: 15px;
+    height: 95px;
+    margin: 0 20px 20px 0px;
+    vertical-align: top;
+    position: relative;
+    text-align: center;
+    padding-top: 29px;
+    top: -24px;
+    border-radius: 999px;
+}
+/*font size*/
+h1, .h1 {
+    font-size: 3.25em;
+}
